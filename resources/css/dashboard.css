@@ -1,0 +1,175 @@
+div.dataTables_wrapper div.dataTables_length label select {
+
+    min-width: 60px;
+
+}
+
+
+
+.c-avatar-img {
+
+    aspect-ratio: 1/1;
+
+}
+
+
+
+.btn {
+
+    vertical-align: middle;
+
+}
+
+
+
+.btn.btn-warning,
+
+.btn.btn-danger {
+
+    color: #fff;
+
+}
+
+
+
+.btn.btn-warning:hover,
+
+.btn.btn-danger:hover {
+
+    color: #fff;
+
+}
+
+
+
+.text-xsmall {
+
+    font-size: 0.9rem;
+
+}
+
+
+
+.text-small {
+
+    font-size: 1rem;
+
+}
+
+
+
+.constrained-image {
+
+    background-repeat: no-repeat;
+
+    background-size: contain;
+
+    background-position: center;
+
+}
+
+
+
+.conditional-show {
+
+    transform-origin: 0 0;
+
+    transform: scaleY(0);
+
+    overflow: hidden;
+
+    display: none;
+
+    height: 0;
+
+    transition: all 0.2s ease, display 0.01s 0.2s;
+
+    overflow: visible;
+
+    position: relative;
+
+    z-index: 60;
+
+}
+
+
+
+.show-node {
+
+    height: unset;
+
+    transform: scaleY(1);
+
+    display: block;
+
+}
+
+
+
+.show-node.flex-container {
+
+    display: flex;
+
+}
+
+
+
+.show-node.grid-container {
+
+    display: flex;
+
+}
+
+table.dataTable>thead>tr>th:not(.sorting_disabled), table.dataTable>thead>tr>td:not(.sorting_disabled){
+
+    padding-right: 20px !important;
+
+}
+
+
+
+.ss-content .ss-list .ss-option.ss-disabled:not(.ss-option-selected) {
+
+    color: #ff8480;
+
+}
+
+
+
+.lead-accept-btn {
+
+    font-size: 1rem;
+
+    cursor: pointer;
+
+}
+
+.Lead-invoice{
+
+    padding: 0 0.5rem 2rem 0.5rem;
+
+}
+
+
+
+.Lead-invoice .header .display-4{
+
+    color: #1F1F1F;
+
+}
+
+.Lead-invoice .header div:nth-child(2){
+
+    align-self: flex-start;
+
+}
+
+.Lead-invoice .header div:last-child{
+
+    margin-bottom: 5px;
+
+}
+
+.p_tabs{
+    width: 3% !important;
+}
